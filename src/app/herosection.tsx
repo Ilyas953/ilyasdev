@@ -23,7 +23,7 @@ export function HeroSection() {
 
     return (
         <>
-        <Section className="  bg-gradient-to-b from-[#1e1e1e] via-[#1e1e1e] via-60% to-[#8b5cf6]/80 grid-rows-5 lg:grid-rows-12 ">
+        <Section className=" h-[120vh] lg:h-[100vh] bg-gradient-to-b from-[#1e1e1e] via-[#1e1e1e] via-60% to-[#8b5cf6]/80 grid-rows-5 lg:grid-rows-12 ">
         <AnimScroll className="flex flex-col items-center col-span-full lg:col-span-10 row-start-2 lg:col-start-2 lg:row-start-4 mb-10 text-center gap-12 ">
             <HeroTitre />
             <HeroBouton />
