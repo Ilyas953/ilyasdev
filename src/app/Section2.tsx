@@ -67,9 +67,6 @@ function CardDev2() {
         </>
     )
 }
-
-
-
 export function Section2() {
 
     return (
