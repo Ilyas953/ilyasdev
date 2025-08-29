@@ -98,7 +98,7 @@ export function Section3() {
                 <p className='font-bold text-[32px]'>Mes Projets et Creations</p>
         <Projects />
         <p className='font-semibold text-[32px]'>Mes Designs</p>
-        <Bouton className='mb-10' ><Link href='/desogm' className='text-[20px]'>Voir Ma Galerie de Design</Link></Bouton>
+        <Bouton className='mb-10' ><Link href='/design' className='text-[20px]'>Voir Ma Galerie de Design</Link></Bouton>
         </AnimScroll>
         </Section>
         </>

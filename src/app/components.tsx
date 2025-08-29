@@ -187,7 +187,7 @@ export function Header() {
 
     return (
      <>
-     <div className="w-full fixed px-[32px] py-[24px] top-0 left-0 z-50  flex flex-row items-center justify-between backdrop-blur-md  ">
+     <div className="col-span-full w-full fixed px-[32px] py-[24px] top-0 left-0 z-50  flex flex-row items-center justify-between backdrop-blur-md  ">
         <p className={`text-2xl text-[#8b5cf6] ${michroma.className} `}>LiaysDev</p>
             <div className="hidden lg:flex flex-row gap-8 text-[16px] ">
                 <Link href="/"><div className="flex flex-col gap-1 group transition-all duration-500 ease-in-out">Accueil <span className=" transition-all duration-300 ease-in-out border-violet-500 border-1 w-0 opacity-0 group-hover:w-full group-hover:opacity-100"></span> </div></Link>
@@ -195,7 +195,7 @@ export function Header() {
                 <Link href="/#projet"><div className="flex flex-col gap-1 group transition-all duration-500 ease-in-out">Mes Projets <span className=" transition-all duration-300 ease-in-out border-violet-500 border-1 w-0 opacity-0 group-hover:w-full group-hover:opacity-100"></span> </div></Link>
             </div>
             <Link href="/#contact"><Bouton className=" hidden lg:flex text-[16px]"><p className="text-[16px]">Demarrer un Projet</p></Bouton></Link>
-        <button onClick={() => setBurger(true)}> <Icone icone="qlementine-icons:menu-burger-16" className={ `${ !burger ? 'opacity-100': 'opacity-0'}  lg:hidden w-[44px] h-11 text-[#8b5cf6]`} /></button>
+        <button onClick={() => setBurger(true)} className="lg:hidden"> <Icone icone="qlementine-icons:menu-burger-16" className={ `${ !burger ? 'opacity-100': 'opacity-0'}  lg:hidden w-[44px] h-11 text-[#8b5cf6]`} /></button>
         
      </div>
 
