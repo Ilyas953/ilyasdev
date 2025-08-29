@@ -202,10 +202,10 @@ export function Header() {
      {burger && <div className=" fixed h-screen z-80 w-full grid grid-cols-5 px-[32px] py-[24px] bg-black/85">
                 <div className=" self-start flex flex-row items-end col-start-6"><button onClick={() => setBurger(false)}><Icone icone="akar-icons:cross" className="  w-[44px] h-11 text-[#8b5cf6]" /></button></div>
                  <div className=" row-start-1 mt-30 ml-10 col-span-full text-center items-center flex flex-col gap-8 text-[24px] font-semibold ">
-                <Link href="/"><div className="flex flex-col gap-1 group transition-all duration-500 ease-in-out">Accueil <span className=" transition-all duration-300 ease-in-out border-violet-500 border-1 w-0 opacity-0 group-hover:w-full group-hover:opacity-100"></span> </div></Link>
-                <Link href="/design"><div className="flex flex-col gap-1 group transition-all duration-500 ease-in-out">Mes Designs <span className=" transition-all duration-300 ease-in-out border-violet-500 border-1 w-0 opacity-0 group-hover:w-full group-hover:opacity-100"></span> </div></Link>
-                <Link href="/#projet"><div className="flex flex-col gap-1 group transition-all duration-500 ease-in-out">Mes Projets <span className=" transition-all duration-300 ease-in-out border-violet-500 border-1 w-0 opacity-0 group-hover:w-full group-hover:opacity-100"></span> </div></Link>
-                <Link href="/#contact"><Bouton className=" w-full  text-[20px]"><p className="text-[20px]">Demarrer un Projet</p></Bouton></Link>
+                <Link href="/"><div className="flex flex-col gap-1 group transition-all duration-500 ease-in-out" onClick={()=> setBurger(false)}>Accueil <span className=" transition-all duration-300 ease-in-out border-violet-500 border-1 w-0 opacity-0 group-hover:w-full group-hover:opacity-100"></span> </div></Link>
+                <Link href="/design"><div className="flex flex-col gap-1 group transition-all duration-500 ease-in-out" onClick={()=> setBurger(false)}>Mes Designs <span className=" transition-all duration-300 ease-in-out border-violet-500 border-1 w-0 opacity-0 group-hover:w-full group-hover:opacity-100"></span> </div></Link>
+                <Link href="/#projet"><div className="flex flex-col gap-1 group transition-all duration-500 ease-in-out" onClick={()=> setBurger(false)}>Mes Projets <span className=" transition-all duration-300 ease-in-out border-violet-500 border-1 w-0 opacity-0 group-hover:w-full group-hover:opacity-100"></span> </div></Link>
+                <Link href="/#contact"><Bouton className=" w-full  text-[20px]"><p className="text-[20px]" onClick={()=> setBurger(false)}>Demarrer un Projet</p></Bouton></Link>
             </div>
 
                 </div>
