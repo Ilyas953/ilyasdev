@@ -1,4 +1,4 @@
-import {Bouton, Section, Glow, AnimScroll, Icone, Bouton2} from "./components"
+import {Bouton, Section, AnimScroll, Icone, Bouton2} from "./components"
 
 export function Section4() {
 

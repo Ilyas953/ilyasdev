@@ -58,7 +58,7 @@ function CardDev2() {
             </SecondCard>
              <SecondCard className='w-full gap-4'>
                      <Cardicon icone='ion:color-fill' />
-                     <p className='font-semibold'>Regle de l'UI</p>
+                     <p className='font-semibold'>Regle de l&apos;UI</p>
                      <p className='text-[#808080]'>Maitrise: Avancee</p>
             </SecondCard>
 

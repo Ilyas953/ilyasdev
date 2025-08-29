@@ -1,4 +1,4 @@
-import {Card, SecondCard, Section, AnimScroll, Cardicon, Bouton, Glow} from './components'
+import {Card,  Section, AnimScroll,  Bouton, Glow} from './components'
 import Link from 'next/link'
 
 

@@ -1,12 +1,11 @@
 "use client"
 
 import { ReactNode } from "react";
-import { ReactElement } from "react";
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import { Icon } from "@iconify/react";
 import { Michroma } from "next/font/google";
-import { style } from "framer-motion/client";
+
 import Link from "next/link";
 
 

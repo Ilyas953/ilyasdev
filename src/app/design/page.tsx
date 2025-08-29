@@ -51,7 +51,7 @@ const design = [
 ]
 
 
-function DesignCard({id, description, image, select, setSelect  }: DesignProps) {
+function DesignCard({id, description, image, setSelect  }: DesignProps) {
 
     return (
         <>

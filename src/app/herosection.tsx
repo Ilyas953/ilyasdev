@@ -1,4 +1,4 @@
-import {Bouton, AnimScroll, SecondBouton, Staricon, Section} from "./components"
+import {Bouton, AnimScroll, SecondBouton, Section} from "./components"
 
  
 function HeroTitre() {
