@@ -4,7 +4,7 @@ export function Section4() {
 
     return (
         <>
-        <Section id="contact" className=" contact h-[100vh] w-full bg-gradient-to-t lg:bg-gradient-to-r from-violet-500/80 via-[#121212] via-20% to-[#121212]">
+        <Section id="contact" className=" contact h-[100vh] lg:h-[130vh] xl:h-[100vh] w-full bg-gradient-to-t lg:bg-gradient-to-r from-violet-500/80 via-[#121212] via-20% to-[#121212]">
             <AnimScroll className="col-span-full flex flex-col items-center gap-[64px] text-center lg:row-start-2 mb-20">
                 <div className="flex flex-col gap-[48px] lg:row-start-3">
                     <p className="text-[32px] font-bold">Entrons en Contact !</p>
